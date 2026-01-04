@@ -1,9 +1,7 @@
 # My-Security-Log-1-SQLi
 This repository contains my public notes regarding my experiences with the SQLi topic on PortSwigger Academy.
 
-# 🛡 Security Log: SQL Injection Deep Dive
-
-**Date:** January 4, 2026  
+**Date:** January 3, 2026  
 [cite_start]**Source:** PortSwigger Academy & Personal Study Notes [cite: 1]
 
 ---

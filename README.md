@@ -7,11 +7,11 @@ This repository contains my public notes regarding my experiences with the SQLi 
 ---
 
 ## Research Overview
-SQL Injection remains one of the most critical web vulnerabilities. During this lab series, I systematized various discovery and exploitation methods—ranging from classic `UNION`-based techniques to stealthy `Time-based` vectors.
+SQL Injection remains one of the most critical web vulnerabilities. During this lab series, I systematized various discovery and exploitation methods — ranging from classic `UNION-based` techniques to stealthy `Time-based` vectors.
 
 ### 1. Structural Reconnaissance (Union-Based)
-* The initial step involves determining the number of columns using the `' ORDER BY X--` technique[cite: 1].
-* Column types are then verified by injecting `UNION SELECT NULL` to find fields that accept string data[cite: 2]. This is crucial for successful data exfiltration.
+* The initial step involves determining the number of columns using the `' ORDER BY X--` technique.
+* Column types are then verified by injecting `UNION SELECT NULL` to find fields that accept string data. This is crucial for successful data exfiltration.
 
 ### 2. Database Fingerprinting
 The payload syntax varies significantly across database management systems:

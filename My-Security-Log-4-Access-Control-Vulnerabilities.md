@@ -7,7 +7,7 @@ This my public notes regarding my experiences with the OS Command Injection topi
 ---
 
 ## Research Overview
-Access control vulnerabilities occur when an application fails to prevent users from accessing resources or performing actions that are outside their intended permissions. This essentially means an attacker can walk through "doors" that should be locked—such as accessing an admin panel directory that lacks proper authentication or authorization checks.
+Access control vulnerabilities occur when an application fails to prevent users from accessing resources or performing actions that are outside their intended permissions. This essentially means an attacker can walk through "doors" that should be locked — such as accessing an admin panel directory that lacks proper authentication or authorization checks.
 
 ### 1. Insecure Direct Object References (IDOR)
 IDOR is a sub-type of access control where an application uses user-supplied input to access objects directly without verifying ownership.

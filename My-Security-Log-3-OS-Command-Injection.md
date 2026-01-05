@@ -49,7 +49,7 @@ When the environment is completely "blind" and firewalls block direct output, we
 ## Personal Insights & Conclusions
 
 > **Author's Perspective:**
-> OS command injection занимательный тип vulnerabilities. Методы "простукивания" схожи с другими типами уязвимостей, такими как SQLi, при этом OS command injection выглядит одновременно и опаснее, и менее правдоподобно в реальном продакшене. Кто будет делать input напрямую в bash? Я бы не стал.
+> OS command injection is a fascinating class of vulnerabilities. The "probing" methods are quite similar to other vulnerability types like SQLi; however, OS command injection feels both more dangerous and less plausible in a real-world production environment. Who would actually pass user input directly into bash? I certainly wouldn't.
 
 ---
 

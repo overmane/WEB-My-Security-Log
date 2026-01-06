@@ -56,7 +56,7 @@ When simple filters are in place, attackers use various "camouflage" techniques 
 > * **d) Image re-processing:** After upload, the server should pass the image through a graphics library (like GD or ImageMagick) to create a copy—all unnecessary metadata and any hidden PHP code in comments will be wiped.
 > * **e) Isolated storage:** Store files on a separate server (cloud) or in a directory outside the web root (e.g., `/var/www/uploads` instead of `/var/www/html/uploads`). 
 > * **f) Execution prevention:** In the server configuration (Apache/Nginx), strictly define the upload folder as "no-execution" for any scripts.
-> * 
+
 ---
 
 ## Future Roadmap

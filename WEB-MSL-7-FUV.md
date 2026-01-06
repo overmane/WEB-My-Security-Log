@@ -53,7 +53,7 @@ When simple filters are in place, attackers use various "camouflage" techniques 
 > * **a) No blacklists, obviously — only whitelists:** Always validate only the final extension after the very last dot.
 > * **b) Filename regeneration:** If you receive `photo.jpg`, save it as something like `a7f2...56b.jpg`.
 > * **c) Don't trust Content-Type headers:** Never trust the header from the request; the server must read the file's first bytes to determine its true type. In PHP, the `Fileinfo` extension is built for this.
-> * **d) Image re-processing:** After upload, the server should pass the image through a graphics library (like GD or ImageMagick) to create a copy—all unnecessary metadata and any hidden PHP code in comments will be wiped.
+> * **d) Image re-processing:** After upload, the server should pass the image through a graphics library (like GD or ImageMagick) to create a copy — all unnecessary metadata and any hidden PHP code in comments will be wiped.
 > * **e) Isolated storage:** Store files on a separate server (cloud) or in a directory outside the web root (e.g., `/var/www/uploads` instead of `/var/www/html/uploads`). 
 > * **f) Execution prevention:** In the server configuration (Apache/Nginx), strictly define the upload folder as "no-execution" for any scripts.
 

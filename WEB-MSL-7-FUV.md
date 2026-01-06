@@ -45,7 +45,7 @@ When simple filters are in place, attackers use various "camouflage" techniques 
 ## Personal Insights & Conclusions
 
 > **Author's Perspective:**
-> Working with File Upload vulnerabilities is arguably the most engaging part. You're no longer just trying to abuse the frontend like in XSS or scamming authorization logic—you're trying to push for RCE. The filter pushes back, and you try every which way to shove your `<?php...?>` through the gap.
+> Working with File Upload vulnerabilities is arguably the most engaging part. You're no longer just trying to abuse the frontend like in XSS or scamming authorization logic — you're trying to push for RCE. The filter pushes back, and you try every which way to shove your `<?php...?>` through the gap.
 >
 > When it comes to the danger of these vulnerabilities—it’s no joke; it’s a severe security breach. Any kid with a laptop these days will eventually try to drop a shell into your upload form, and you’d better have a filter more robust than just checking if `.php` becomes `.PhP` before saying "Welcome aboard!"
 >

@@ -53,7 +53,7 @@ For cloud environments (AWS, Azure, GCP), SSRF is critical due to the **Instance
 > * **Deep IP Validation:** Resolve domains to IPs on the backend and verify they don't fall into private ranges (`127.0.0.0/8`, `10.0.0.0/8`, `172.16.0.0/12`, `192.168.0.0/16`, `169.254.169.254`).
 > * **Network Isolation:** Use a dedicated egress proxy for outgoing requests and configure firewalls to block the application server from hitting internal IPs.
 >
-> This "Castle-and-Moat" mentality—tough outside, soft inside—is a major flaw. IDOR and SSRF remain the most interesting vulnerabilities for manual "poking" with Burp Suite. It's always great to revisit the basics.
+> This "Castle-and-Moat" mentality — tough outside, soft inside — is a major flaw. IDOR and SSRF remain the most interesting vulnerabilities for manual "poking" with Burp Suite. It's always great to revisit the basics.
 
 ---
 
